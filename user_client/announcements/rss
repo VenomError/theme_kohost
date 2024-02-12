@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+                <channel>
+                    <atom:link href="http://whmcs.themetags.com/announcements/rss" rel="self" type="application/rss+xml" />
+                    <title><![CDATA[ThemeTags]]></title>
+                    <description><![CDATA[ThemeTags Announcements Feed]]></description>
+                    <link>http://whmcs.themetags.com/announcements</link>
+                    
+<item>
+    <title><![CDATA[How-To: Offering WordPress Hosting with WHMCS]]></title>
+    <link>http://whmcs.themetags.com/announcements/5</link>
+    <guid>http://whmcs.themetags.com/announcements/5</guid>
+    <pubDate>Tue, 28 Dec 2021 11:48:00 -0500</pubDate>
+    <description><![CDATA[<p>WordPress powers over 30% of websites on the internet, with the number growing all the time. For many people, WordPress is the ideal site building solution because of its ease of use and flexible nature which thanks to its plugin and theme systems can enable you to build almost any type of website you like.</p>
+<p> </p>
+<p>As a web hosting provider, if you're not offering dedicated WordPress hosting, you could be missing out on potential customers. WHMCS can fully automate the setup of hosting with WordPress pre-installed, and with WHMCS 8.3, it's easier than ever to do. In this blog post, we show you how.</p>
+<p>Configuring a WordPress Hosting Package</p>
+<p>WHMCS can automatically install WordPress to cPanel and Plesk hosting accounts. This can be done either automatically at the time of initial provisioning, or on-demand at any time by any admin or client user. In this guide, we're going to show you how to configure automatic install at the time of initial provisioning for a cPanel hosting package.</p>
+<p>1. Begin by creating a new group for your WordPress hosting products. You do this by navigating to Setup &gt; Products/Services &gt; Create New Group and filling out the fields as desired.</p>
+<p>2. Next create a new product within the group. The product should be of type "Shared Hosting" and be assigned to either the cPanel or Plesk automation module. In this example we are choosing cPanel.</p>
+<p>3. After clicking Continue, you are taken to the Product Configuration screen for your new product. In addition to setting your desired product description and pricing, you'll want to head over to the Module Settings tab from where you can configure the WordPress auto installation. To have WordPress be installed when the hosting account is first created, begin by choosing "Install Automatically". All other fields can be left at their defaults.</p>
+<p>4. Repeat steps 2 and 3 as many times as you wish to create the WordPress plans you wish to offer. In our example here, you can see we've created 3 plans, utilised Feature Highlights for the product descriptions, and featured what we are calling our "WordPress Pro" plan which looks great in the Premium Comparison order form template which we selected for our product group.</p>
+<p>And that's all there is to it! When this hosting plan is ordered, WHMCS will create the hosting account and then install WordPress automatically into the root of the domain. The customer will receive the URL to their new WordPress installation and admin login credentials via email using the email template "WordPress Installation Welcome Email".</p>
+<p>The resulting WordPress instance can also be accessed and managed via both cPanel and/or Plesk within the WordPress Toolkit interface.</p>
+<p>Everything Your Customers Need in One Place</p>
+<p>After purchase, in the Client Area, your customers will be able to directly access their WordPress installation or log in to their WordPress installation's admin panel.</p>
+<p>If you enabled client installations while creating the WordPress hosting plan, your customers will also be able to install WordPress directly from the Client Area. That means no manual work required for you and a lot of convenience for your customers.</p>
+<p>WordPress Hosting is an essential part of any modern web hosting offering, and by leveraging the automation in WHMCS, you can save yourself time as well as meet the needs of more customers using your existing WHMCS billing platform. If you have any questions or comments, we invite you to ask them in the comments below.</p>
+<p>Thanks for reading!</p>]]></description>
+</item>
+
+<item>
+    <title><![CDATA[How-To: Using Validation.com to automate fraud order management]]></title>
+    <link>http://whmcs.themetags.com/announcements/4</link>
+    <guid>http://whmcs.themetags.com/announcements/4</guid>
+    <pubDate>Tue, 28 Dec 2021 11:47:00 -0500</pubDate>
+    <description><![CDATA[<p>Fraudulent orders can be a big cost for online businesses - both in time as well as money. The Validation.com integration in WHMCS aims to help reduce that burden.</p>
+<p>With Validation.com, you can perform automated customer identity verification when customers fail a fraud check, helping you and your team to make more informed decisions about whether to accept high risk orders.</p>
+<p>How it works?</p>
+<p>When enabled in WHMCS, customers will be automatically prompted to securely submit proof of their identity using the Validation.com service any time an order fails an automated fraud check based on your settings.</p>
+<p>Automated fraud checks are supported via both Fraudlabs Pro and MaxMind. With both of these services, you can define what determines a high risk order for your business. And when an order qualifies, you can then have Validation.com collect a selfie and optionally other documents to help you verify the legitimacy of an order.</p>
+<p> </p>
+<p>Here's how the process looks for an end user:</p>
+<p>Step 1: The user is informed that their order has failed the automated fraud checks and additional verification is required</p>
+<p>Step 2: The Validation.com process launches in a modal popup and guides the user through uploading the required images or documents (as defined by you)</p>
+<p>Step 3: A selfie request allows the user to upload a real-time picture of themselves using their webcam to be matched against provided photo ID</p>
+<p>When reviewing an order within WHMCS, the Validation.com status for the user is displayed in real-time, along with quick and easy access to review any provided verification documents at Validation.com directly from the order management interface giving you and your team everything you need to make an informed decision about how to process the order.</p>
+<p>On-demand Verification</p>
+<p>In addition to automated validation performed when fraud checks fail, you can also use the Validation.com integration within WHMCS to validate users on-demand. This can be especially useful when users are requesting for sensitive or critical account related actions as part of support interactions, or when access to an account has been lost and a user is asking for help regaining access.</p>
+<p>To initiate an on-demand user verification, you can simply navigate to the users profile within the WHMCS admin area where you can review the ID Verification Status for a given user at any time, as well as initiate a request for verification to be performed by the user. Requests for verification are notified via email as well as via a banner notice displayed when logged into the client area as can be seen in the screenshots above.</p>
+<p>Want to learn more about how Validation.com can benefit you? Read the Whitepaper here: https://validation.com/Validation_Whitepaper.pdf</p>
+<p>Pricing</p>
+<p>Exclusive special pricing is available for WHMCS users:</p>
+<p>WHMCS Starter Plan - Just $5 per month for up to 5 validation requests</p>
+<p>Standard Starter Plan - $19 per month for up to 20 validation requests</p>
+<p>Business Plan - $99 per month for up to 200 validation requests (free for WHMCS Business 10k license holders and higher)</p>
+<p>Each validation request allows for one user to be verified, and a user only needs to perform verification once so the WHMCS Starter Plan would allow for validating 5 unique users per month.</p>
+<p>Try Validation.com for FREE</p>
+<p>Now is the perfect time to sign up and try the Validation.com service.</p>
+<p>Sign up before 31st December 2021 and receive your first 2 months free on all new Validation.com accounts created via WHMCS.</p>
+<p>Ready to Get Started?</p>
+<p>Simply login to your WHMCS installation and navigate to Configuration &gt; System Settings &gt; Fraud Protection and click the Activate button under the Validation.com integration to activate your free trial.</p>
+<p>Validation.com integration is available in WHMCS 8.2 and later.</p>
+<p>If you have any questions about this integration, we invite you to ask them in the comments area below. Thanks for reading!</p>]]></description>
+</item>
+
+<item>
+    <title><![CDATA[WHMCS Version 8.3.2 Released]]></title>
+    <link>http://whmcs.themetags.com/announcements/3</link>
+    <guid>http://whmcs.themetags.com/announcements/3</guid>
+    <pubDate>Tue, 28 Dec 2021 11:44:00 -0500</pubDate>
+    <description><![CDATA[<p>Today we have released WHMCS 8.3.2 which contains fixes regarding the Affiliate system in 8.3.1.</p>
+<p>If you are currently running 8.3.1 and use the Affiliate system with the Commission Delay feature you can read more about this specific issue here.</p>
+<p>WHMCS 8.3 includes Automatic WordPress Provisioning , Stripe and PayPal Dispute Management, Improved Client Profile Summary, Friendly URLs for Products, DNS Validation for SSL and more.</p>
+<p>Getting the Update</p>
+<p>You can update automatically using the Automatic Updater. Simply navigate to Utilities &gt; Update WHMCS to begin the update process.</p>
+<p>As always, manual downloads are also being made available for those who wish to upgrade manually. You can download both the full release and incremental versions from the Download page.</p>
+<p>Thank you for continuing to support and use WHMCS and we hope you enjoy the latest version.</p>]]></description>
+</item>
+
+<item>
+    <title><![CDATA[WHMCS 8.4 Release Candidate Now Available]]></title>
+    <link>http://whmcs.themetags.com/announcements/2</link>
+    <guid>http://whmcs.themetags.com/announcements/2</guid>
+    <pubDate>Tue, 28 Dec 2021 11:42:00 -0500</pubDate>
+    <description><![CDATA[<p>We're excited to announce the release of WHMCS 8.4 Release Candidate.</p>
+<p>This marks the end of feature development for the 8.4 series and is the final stage before version 8.4 is promoted to general availability status. We expect this to occur early in the new year.</p>
+<p>Thank you to everyone who has taken part in the Beta so far and we invite everyone to try the new features and functionality in WHMCS 8.4 by downloading and installing the Release Candidate.</p>
+<p>What's new in WHMCS 8.4</p>
+<p>Faster WordPress Hosting Checkout - A quicker checkout experience for customers purchasing WordPress Hosting</p>
+<p>Open-Xchange Mailbox Aliases - Create and Manage Email Aliases from the WHMCS Client Area</p>
+<p>Digicert Site Seals - SSL Certificate Site Seal Code now available in the WHMCS Client Area</p>
+<p>Optimized Merchandising for SSL Products - Enabling you to promote your best performing SSL products</p>
+<p>Automatic Updater Improvements - Additional pre-flight checks to help ensure a successful update</p>
+<p>For more information about all of the new features in WHMCS 8.4, visit the What's New in WHMCS 8.4 Microsite</p>
+<p> </p>
+<p>Take part in the beta</p>
+<p>Our public beta program gives you direct access to try our early pre-production releases and help test and contribute to the development process. To get started, you can download WHMCS 8.4 or update to it using the Automatic Updater today.</p>
+<p> </p>
+<p>As always, pre-production releases are intended for testing only and are not recommended for production use.</p>]]></description>
+</item>
+
+<item>
+    <title><![CDATA[Thank you for choosing WHMCS!]]></title>
+    <link>http://whmcs.themetags.com/announcements/1</link>
+    <guid>http://whmcs.themetags.com/announcements/1</guid>
+    <pubDate>Tue, 28 Dec 2021 03:30:28 -0500</pubDate>
+    <description><![CDATA[<p>Welcome to <a title="WHMCS" href="http://whmcs.com" target="_blank">WHMCS</a>!
+ You have made a great choice and we want to help you get up and running as
+ quickly as possible.</p>
+<p>This is a sample announcement. Announcements are a great way to keep your
+ customers informed about news and special offers. You can edit or delete this
+ announcement by logging into the admin area and navigating to <em>Support &gt;
+ Announcements</em>.</p>
+<p>If at any point you get stuck, our support team is available 24x7 to
+ assist you. Simply visit <a title="www.whmcs.com/support"
+ href="https://www.whmcs.com/support" target="_blank">www.whmcs.com/support</a>
+ to request assistance.</p>]]></description>
+</item>
+                </channel>
+            </rss>
